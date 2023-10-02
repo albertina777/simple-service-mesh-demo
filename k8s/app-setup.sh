@@ -1,6 +1,6 @@
 echo "Setting up namespace"
 
-kubectl apply -f namespace.yaml
+oc new-project service-mesh-demo
 
 echo "Applying the namespace to the service mesh member roll"
 

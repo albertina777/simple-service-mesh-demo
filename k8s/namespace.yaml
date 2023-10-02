@@ -1,6 +1,4 @@
-kind: Namespace
 apiVersion: v1
+kind: Project
 metadata:
   name: service-mesh-demo
-  labels:
-    name: service-mesh-demo
